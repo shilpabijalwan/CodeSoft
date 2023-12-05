@@ -11,7 +11,7 @@ function addNumb() {
         calculateResult();
       } else if (e.target.value == "C" || e.target.value == "CE") {
         clearRes();
-      } else if (e.target.value == "X") {
+      } else if (e.target.value == "del") {
         del();
       } else {
         cal += e.target.value;
